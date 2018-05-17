@@ -1,3 +1,5 @@
 {
-  "counter": 20
+  "data": {
+    "counter": 20
+  }
 }
