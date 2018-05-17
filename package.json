@@ -1,8 +1,11 @@
 {
-  "scripts": {
-    "start": "micro"
-  },
   "dependencies": {
-    "micro": "latest"
+    "json-server": "^0.9.4"
+  },
+  "scripts": {
+    "start": "json-server data.json"
+  },
+  "bin":{
+    "test-api": "./index.js"
   }
 }
